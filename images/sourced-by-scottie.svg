@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Original illustrated title artwork for SOURCED BY SCOTTIE">
+  <rect width="480" height="360" fill="#d5c0f7"/>
+  <circle cx="392" cy="64" r="104" fill="none" stroke="#302356" stroke-width="24" opacity=".20"/>
+  <path d="M52 182 Q188 36 328 178" fill="none" stroke="#302356" stroke-width="18" opacity=".16"/>
+  <path d="M0 252 L480 142" stroke="#302356" stroke-width="18" opacity=".12"/>
+  <rect x="18" y="18" width="444" height="324" fill="none" stroke="#302356" stroke-width="2" opacity=".42"/>
+  <text x="48" y="48" fill="#302356" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">DC / STYLE FILES</text>
+  <g fill="#302356" font-family="Arial Black, Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="240" y="168" font-size="58">SOURCED</text>
+    <text x="240" y="229" font-size="58">BY SCOTTIE</text>
+  </g>
+  <text x="240" y="302" fill="#302356" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="3">SECONDHAND / PERSONAL</text>
+</svg>
