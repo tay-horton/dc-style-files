@@ -1,47 +1,43 @@
-# DC Style Files — WEB 110 Local Guide
+# DC Style Files — Module 11 progress update
 
-## Module 9 → Instructor Progress Check
-This three-page student project is a Washington, D.C. fashion guide with a bold editorial design. It builds on the original Module 9 starter project and keeps the same three HTML pages and shared CSS folder structure.
+This is an update to the original three-page Washington, DC style guide (same typography, color palette, navigation, and concept).
 
-### Website pages
-- `index.html` — Home, introduction, and links to the two shopping categories
-- `streetwear.html` — Joint Custody, Delorean 88, Sister Skateshop
-- `vintage.html` — Vintage Vintage Vintage, Sourced by Scottie, Secondi
-- `css/style.css` — Responsive shared CSS, navigation, visual hierarchy, and focus styles
-- `images/` — Six original, self-contained SVG editorial illustrations
+## Module 11 updates
 
-### Progress since the initial starter
-- Refreshed the overall look with bold typography, clear hierarchy, new color palette, and editorial poster-inspired art.
-- Developed shop cards with descriptions, location context, and outbound links.
-- Added original SVG art assets that load offline without external image dependencies.
-- Improved responsive layouts for smaller screens and consistent navigation across all three pages.
-- Kept semantic HTML structure, skip-to-content links, image alt text, and visible keyboard focus styles.
+- Added six **reusable photo examples** to the store cards, with visible credits and license links. These are **not** photographs of the named DC businesses, and are honestly marked as style references. Replace them with actual venue photos only when you have permission or your own photos.
+- Set a consistent image area (`height`, `object-fit: cover`) to keep cards aligned.
+- Added simple card hover transitions and small-screen media query styling.
+- Improved descriptions, working location/store links, and removed most **starter** wording.
+- Preserved all three main content pages and original color palette.
 
-### What's next
-- Double-check shop information and current addresses.
-- Replace design-stage illustrations with appropriately credited/permission-cleared photographs, if helpful.
-- Add a mobile-friendly map or further neighborhood detail after instructor feedback.
+## Upload to GitHub
 
-### Final visual correction
-- Fixed image CSS height so SVG poster artwork is not horizontally cropped on laptop or mobile.
-- Removed the conflicting mobile image aspect ratio that caused a second crop.
-- Validated all six poster images with actual browser rendering.
+Upload `index.html`, `streetwear.html`, `vintage.html`, `README.md`, and `css/style.css` **maintaining the folder structure** to the existing public `dc-style-files` repository. GitHub will ask you to confirm replacements; commit the changes with a message such as:
 
-### How to open
-Double-click `index.html` in a browser and click around to verify all three pages. The website uses relative paths, so preserve the folder structure when uploading.
+`Module 11 progress: add photo references, credits, and responsive CSS`
 
-### GitHub instructions
-To update your existing GitHub repository `https://github.com/tay-horton/dc-style-files`:
-1. Open the repository and choose **Add file → Upload files** (when signed in).
-2. Upload `index.html`, `streetwear.html`, `vintage.html`, `README.md`, and the files inside `css` and `images`, preserving the directory names.
-3. Commit with message: `Improve DC Style Files layout and add shop visuals`.
-4. Refresh the repo to make sure the newest files and folders appear.
-5. Submit that repo link to Blackboard, attach the screenshot files, and paste the question below.
+Open the live site and check that the images load, pages link to each other, and cards stay readable on a narrow browser window.
 
-### Instructor question
-I'm going for a bold editorial look but still want the site to be easy to use on phones. Would you recommend adding real shop photos first or focusing on neighborhood maps and location information for the next update?
+## Important
 
-### Notes
-- The screenshots are captured from this local HTML/CSS version and do not prove the GitHub upload has occurred.
-- Artwork in `images/` is original design-stage graphic work, not actual shop photography.
-- All shops and outbound links are included for learning purposes; verify details before final publication.
+No GitHub changes were pushed automatically in preparing these files. Only mark the Module 11 GitHub question True *after* uploading and committing the latest version. Double-check which CSS properties your course **Chapter 10** covered before answering its question.
+
+## Photo sources
+
+Photo URLs are loaded directly from Wikimedia Commons; an internet connection is required for the photographs to appear. They are licensed for reuse as noted below. The display uses CSS cropping, identified in credit captions.
+
+- **Joint Custody (style reference, not shop photo):** Samuel Dixon, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — https://commons.wikimedia.org/wiki/File:Vintage_record_store_(Unsplash).jpg
+
+- **Delorean 88 (style reference, not shop photo):** Oteroportero, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — https://commons.wikimedia.org/wiki/File:Sneakers_sobre_fondo_azul.jpg
+
+- **Sister Skateshop (style reference, not shop photo):** Afterbrunel, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — https://commons.wikimedia.org/wiki/File:Skateboard.png
+
+- **Vintage Vintage Vintage (style reference, not shop photo):** Ewan Munro, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) — https://commons.wikimedia.org/wiki/File:Too_Much_Plaid_(4394365739).jpg
+
+- **Sourced by Scottie (style reference, not shop photo):** Clark Street Mercantile, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — https://commons.wikimedia.org/wiki/File:Vintage_apparel_store_interior_(Unsplash).jpg
+
+- **Secondi (style reference, not shop photo):** Carmen Steffens, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — https://commons.wikimedia.org/wiki/File:Interior_shot_of_a_Carmen_Steffens_Boutique.jpg
+
+## Homepage design restored from Module 10
+
+The homepage's original lime hero, “THE CITY IS THE FIT.” heading, monuments-and-racks intro, cobalt/orange D.C. poster, and “NOT YOUR AVERAGE TOUR GUIDE.” sticker are preserved exactly in concept and copy. `index.html` uses `css/home.css` for the original homepage style; the two store-listing pages still use `css/style.css` with Module 11 image sizing and hover effects. **Upload both CSS files** with the three HTML files and README.
