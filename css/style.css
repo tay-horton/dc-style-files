@@ -45,7 +45,7 @@ a:focus-visible{outline:3px solid var(--hot);outline-offset:4px}
 .spot-photo figcaption a{text-underline-offset:2px}
 .spot-body{padding:24px 26px 28px;display:flex;flex-direction:column;flex:1}
 .spot .num{display:inline-block;background:var(--ink);color:#fff;align-self:flex-start;padding:3px 10px;font-weight:800;font-size:12px}
-.spot h2{font-family:'Archivo Black',Impact,sans-serif;text-transform:uppercase;letter-spacing:-.055em;line-height:1.03;font-size:clamp(25px,3.8vw,42px);margin:20px 0 10px}
+.spot h3{font-family:'Archivo Black',Impact,sans-serif;text-transform:uppercase;letter-spacing:-.055em;line-height:1.03;font-size:clamp(25px,3.8vw,42px);margin:20px 0 10px}
 .spot p{margin:0 0 14px}.spot address{font-style:normal;color:var(--muted);font-size:14px;margin-bottom:20px}
 .spot .visit-link{margin-top:auto;font-weight:800;font-size:13px;text-underline-offset:3px}
 /* Module 11 CSS update: hover state with transition */
@@ -61,3 +61,10 @@ a:focus-visible{outline:3px solid var(--hot);outline-offset:4px}
 /* Module 11 CSS update: responsive CSS media queries */
 @media(max-width:760px){.header-inner{align-items:flex-start;flex-direction:column}.hero-grid{grid-template-columns:1fr}.hero-copy{padding:48px 0}.sticker-art{min-height:230px;border-left:none;border-top:2px solid var(--ink)}.sticker-art:before{width:200px;height:200px;border-width:24px}.grid,.spot-grid{grid-template-columns:1fr}.section{padding:46px 0}.feature{min-height:200px}.page-intro{padding:50px 0 36px}.spot-photo img{height:220px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.spot{transition:none}.spot:hover{transform:none}}
+
+/* Module 12: visible focus, meaningful heading hierarchy, narrow-screen resilience. */
+:focus-visible{outline:3px solid #171718;outline-offset:4px}
+.topbar a:focus-visible,.spot a:focus-visible,.footer a:focus-visible{outline:3px solid #171718;outline-offset:4px;background:#dfff6b;color:#171718}
+.skip:focus-visible{left:10px;top:10px}
+.spot h3{overflow-wrap:break-word}
+@media(max-width:390px){.page-intro h1{font-size:clamp(43px,12vw,52px)}.spot-body{padding:19px}.spot h3{font-size:clamp(24px,8vw,32px)}.nav{gap:10px 14px}}
