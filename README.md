@@ -41,3 +41,7 @@ Photo URLs are loaded directly from Wikimedia Commons; an internet connection is
 ## Homepage design restored from Module 10
 
 The homepage's original lime hero, “THE CITY IS THE FIT.” heading, monuments-and-racks intro, cobalt/orange D.C. poster, and “NOT YOUR AVERAGE TOUR GUIDE.” sticker are preserved exactly in concept and copy. `index.html` uses `css/home.css` for the original homepage style; the two store-listing pages still use `css/style.css` with Module 11 image sizing and hover effects. **Upload both CSS files** with the three HTML files and README.
+
+
+## Module 12 accessibility update
+See `MODULE_12_ACCESSIBILITY_AUDIT.md` for source changes and manual testing checklist. The original visual styling was preserved.
