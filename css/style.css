@@ -68,3 +68,18 @@ a:focus-visible{outline:3px solid var(--hot);outline-offset:4px}
 .skip:focus-visible{left:10px;top:10px}
 .spot h3{overflow-wrap:break-word}
 @media(max-width:390px){.page-intro h1{font-size:clamp(43px,12vw,52px)}.spot-body{padding:19px}.spot h3{font-size:clamp(24px,8vw,32px)}.nav{gap:10px 14px}}
+
+/* Final project refinements */
+.logo span{background:none;color:#293fe3;padding:0}
+.nav{gap:8px}
+.nav a{padding:10px 15px;border-radius:50px;letter-spacing:.06em}
+.nav a[aria-current='page']{background:#171718;color:#f7f4ec;text-decoration:none}
+.streetwear-intro{background:#293fe3;color:#fff}
+.vintage-intro{background:#f36b32;color:#171718}
+.spot-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.spot{border-radius:0;background:#fff!important;min-width:0}
+.spot-photo img{height:auto;aspect-ratio:4/3;object-fit:contain}
+.spot-body{padding:20px}
+.spot h3{font-size:clamp(23px,2.5vw,32px);overflow-wrap:anywhere}
+.page-intro h1{overflow-wrap:anywhere}
+@media(max-width:760px){.spot-grid{grid-template-columns:1fr}.nav a{padding:8px 10px;font-size:10px}}

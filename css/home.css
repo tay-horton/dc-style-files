@@ -65,3 +65,8 @@ h1,h2,h3,p{margin-top:0}
 .logo:focus-visible,.nav a:focus-visible{outline:3px solid #293fe3;outline-offset:4px}
 .hero-title,.section-title,.feature-card h3{overflow-wrap:normal}
 @media(max-width:380px){.hero-title{font-size:clamp(46px,14vw,61px)}.art-main{font-size:clamp(100px,35vw,145px)}.art-top,.art-bottom{letter-spacing:.04em;font-size:10px}.art-sticker{font-size:12px}.section-title{font-size:clamp(34px,11vw,44px)}}
+
+/* Final narrow-screen checks */
+.hero-copy,.hero-layout>*{min-width:0}
+.hero-title,.feature-card h3{overflow-wrap:anywhere}
+@media(max-width:380px){.feature-card{padding:22px 18px}}
